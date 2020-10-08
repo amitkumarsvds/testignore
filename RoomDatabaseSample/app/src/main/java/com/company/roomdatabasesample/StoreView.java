@@ -27,7 +27,7 @@ public class StoreView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setUiContent();
+        setUiContent();//For dev branch
 
         mViewModelStore = ViewModelProviders.of(StoreView.this).get(StoreViewModel.class);
 
